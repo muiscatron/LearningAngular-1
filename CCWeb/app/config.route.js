@@ -40,6 +40,17 @@
                     }
                 }
             }
+            , {
+                url: '/sessions',
+                config: {
+                    title: 'sessions',
+                    templateUrl: 'app/admin/sessions.html',
+                    settings: {
+                        nav: 2,
+                        content: '<i class="fa fa-lock"></i> Admin'
+                    }
+                }
+            }
         ];
     }
 })();

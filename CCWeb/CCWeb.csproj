@@ -126,6 +126,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\services\entityManagerFactory.js" />
+    <Content Include="app\session\Sessions.html" />
+    <Content Include="ccfavicon.ico" />
     <Content Include="content\breeze.directives.css" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />

@@ -3,11 +3,11 @@
 
     angular
         .module('app')
-        .controller('sessions', sessions);
+        .controller('sessions', ['common', sessions]);
 
     sessions.$inject = ['$location']; 
 
-    function sessions($location) {
+    function sessions($location, common) {
         /* jshint validthis:true */
         var vm = this;
         vm.title = 'sessions';

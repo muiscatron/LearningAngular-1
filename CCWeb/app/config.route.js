@@ -44,10 +44,10 @@
                 url: '/sessions',
                 config: {
                     title: 'sessions',
-                    templateUrl: 'app/admin/sessions.html',
+                    templateUrl: 'app/session/sessions.html',
                     settings: {
-                        nav: 2,
-                        content: '<i class="fa fa-lock"></i> Admin'
+                        nav: 3,
+                        content: '<i class="icon-calendar"></i> Sessions'
                     }
                 }
             }
